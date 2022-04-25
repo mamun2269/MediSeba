@@ -1,0 +1,171 @@
+/* forExtra large ( XL ) devices laptop/ desktop***/
+@media (min-width:1200px) and (max-width:1500px){
+
+}
+
+/*****For large ( LG )  device***/
+@media (min-width:992px) and (max-width:1199px){
+    .topbar_contactlist li{ margin-right: 16px;}
+    .main_menu ul li ul.mega_menu{ right:-415px;}
+    .service_box { margin-bottom: 7px;}
+    .service_img img {
+        width: 50px;
+        height: 50px;
+    }
+    .department{ padding: 20px 18px;}
+    .section_top h3::before { left:46%;}
+    .section_top h3::after {right: 46%;}
+    .about_top h3::before { left:0%;}
+    .about_top h3::after {
+        left: 7%;
+        bottom: -83%;
+    }
+    .post_list li i {
+          font-size: 25px;
+        margin-right: 8px;
+    }
+
+    .modal_top h3::before {
+        left: 42%;
+    }
+    .modal_top h3::after {
+        right: 43%;
+    }
+
+
+    .contact_top h2 {font-size: 26px;}
+    .contact_title{ font-size: 26px;}
+}
+
+/*** For tablet ( MD ) devices****/
+@media (min-width:768px) and (max-width:991px){
+    .topbar_contactlist li{ margin-right: 10px;}
+    .topbar_social{ padding-right: 0px;}
+    .main_menu ul li ul.mega_menu{ width:750px; right: -340px;}
+    .submenu.contact_submenu{ right:0;}
+    .slider_height{ min-height: 500px;}
+    .right_content{ margin-right:0px;}
+    .our_quality li{ margin-right: 23px;}
+    .about_right {padding: 80px 25px 30px 25px;}
+    .about_top h3::before { left: 0% !important;}
+    .about_top h3::after {
+        left: 10%;
+        bottom: -83%;
+    }
+    .section_top h3::before{ left: 45%;}
+    .section_top h3::after{ right:45%;}
+    .dept_name {
+        margin-right: 22px;
+        width: 21%;
+        margin-bottom: 20px;
+    }
+    .dept_name h6{ font-size:13px;}
+    .dept_details p{ font-size:14px;}
+
+    .counter_box{ padding:20px 0;}
+    .counter_box::before { width: 40px;}
+    .counter_box::after { width: 40px;}
+    .counter_box h6{ font-size:30px}
+    .counter_box p{ font-size:15px;}
+    .counter_box i {
+        font-size: 30px;
+        margin-top: -35px;
+    }
+    .gallery_menu ul li{ padding: 8px 13px;}
+    .footer_title{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .registration_form input{ height:40px;}
+    .modal_top h3::before {
+        left: 42%;
+    }
+    .modal_top h3::after {
+        right: 43%;
+    }
+
+    .contact_top h2 {font-size: 24px;}
+    .contact_title{ font-size: 24px;}
+    .contact_details{ margin-left: 10px;}
+    .contact_icon i{ padding: 10; font-size: 16px;}
+    .contact_details h5{ font-size: 16px;}
+    .contact_social ul li a{
+        width: 32px;
+        height: 32px;
+    }
+    .contact_form input{ height: 40px;}
+    .contact_btn { padding: 9px 20px;}
+    .about_btn{ margin-bottom: 30px;}
+}
+
+
+/****  For extra small mobile (  XX) device *****/
+@media (max-width:767px){
+    .header_area{ padding:15px 0;} 
+    .slider_height{ min-height: 500px;}
+    .logo{ width: 130px;}
+    .logo img{ width: 100%;}
+    .hero_content h2{ font-size: 25px;}
+    .hero_content p{ font-size: 15px;}
+    .section_top h3{ font-size:20px;}
+    .section_top p {
+        font-size:15px;
+        width:320px;
+    }
+    .section_top h3::before {
+        bottom: -100%;
+        left: 40%;
+    }
+    .section_top h3::after {
+        bottom: -100%;
+        right: 40%;
+    }
+    .about_top{ margin-bottom: 20px;}
+    .about_top h3::before { left: 0% !important;}
+    .about_top h3::after {
+        left: 12%;
+        bottom: -101%;
+    }
+    .qualities{ flex-direction: column; margin-bottom: 30px;}
+    .dept_name h6 { font-size: 15px; }
+    .dept_details p{ font-size: 15px;}
+    .counter_area{ padding-bottom: 60px;}
+    .counter_box{ margin-bottom: 30px;}
+    .gallery_menu ul li {
+        padding: 9px 15px;
+        font-size: 14px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+      }
+    .footer_title{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .contact_top h2 {font-size: 24px;}
+    .contact_title{ font-size: 24px;}
+    .contact_details{ margin-left: 10px;}
+    .contact_icon i{ padding: 10; font-size: 16px;}
+    .contact_details h5{ font-size: 16px;}
+    .contact_social ul li a{
+        width: 32px;
+        height: 32px;
+    }
+    .contact_form input{ height: 40px;}
+    .contact_btn { padding: 9px 20px;}
+    .about_btn{ margin-bottom: 30px;}
+}
+
+/****  For large mobile ( SM )device *****/
+@media (min-width:480px) and (max-width:767px){
+    .section_top h3::before {
+        bottom: -100%;
+        left: 42%;
+    }
+    .section_top h3::after {
+        bottom: -100%;
+        right: 42%;
+    }
+    .about_top h3::after { left: 9%; }
+}
